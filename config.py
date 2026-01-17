@@ -4,6 +4,7 @@ STATS_MESSAGE_ID = 4 # пост со статистикой
 STATS_UPDATE_INTERVAL_SEC = 180
 DATABASE_NAME = 'dating.db' # база данных
 
+# вместо цифр вставить корпуса колледжей
 COLLEGES = [
     "0",
     "1",
@@ -12,7 +13,7 @@ COLLEGES = [
 ]
 
 # Индексы колледжей для удобства использования
-COLLEGE_0 = 0
+COLLEGE_0 = 0 # для удобства надо указать колледж
 COLLEGE_1 = 1
 COLLEGE_2 = 2
 COLLEGE_3 = 3
