@@ -1,0 +1,56 @@
+{
+  "token": "",
+  "adminId": 0,
+  "database": "dating.db",
+  "photoDirectory": "photo",
+  "createDatabase": true,
+  "statsChannelId": 0,
+  "statsMessageId": 0,
+  "statsIntervalSeconds": 180,
+  "adEveryViews": 7,
+  "mailingDisableStars": 30,
+  "mailingDisableMonths": 3,
+  "github": {
+    "repository": "romanich237/dvbot",
+    "branch": "main",
+    "autoUpdate": true,
+    "checkIntervalSeconds": 60
+  },
+  "pm2Process": "dvbot",
+  "miniApp": {
+    "enabled": false,
+    "url": "https://example.org",
+    "host": "127.0.0.1",
+    "port": 4860,
+    "initDataMaxAgeSeconds": 3600,
+    "sessionHours": 12
+  },
+  "branding": {
+    "title": "Знакомства",
+    "organization": "Сообщество",
+    "description": "Находите друзей, отправляйте симпатии и общайтесь."
+  },
+  "campuses": [
+    {
+      "name": "Корпус 1",
+      "coordinates": [
+        10.0,
+        20.0
+      ]
+    },
+    {
+      "name": "Корпус 2",
+      "coordinates": [
+        10.01,
+        20.02
+      ]
+    }
+  ],
+  "supportLinks": [],
+  "photoCompression": {
+    "enabled": true,
+    "maxWidth": 1600,
+    "maxHeight": 1600,
+    "quality": 80
+  }
+}
